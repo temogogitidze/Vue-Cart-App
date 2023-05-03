@@ -1,6 +1,6 @@
 <script setup>
 import { useTranslate } from "../../composables/useTranslate";
-import Btn from "../Common/Btn.vue";
+import Btn from "../common/Btn.vue";
 const { doTranslate } = useTranslate();
 const emits = defineEmits(["changeTab"]);
 </script>

@@ -1,5 +1,5 @@
 <script setup>
-import BtnIconRounded from "../Common/BtnIconRounded.vue";
+import BtnIconRounded from "../common/BtnIconRounded.vue";
 
 import Tabs from "./Tabs.vue";
 

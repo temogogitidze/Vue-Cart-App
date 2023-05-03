@@ -5,7 +5,7 @@ import useCartStore from "../../stores/cart";
 import { useTranslate } from "../../composables/useTranslate";
 import { useSimpleBar } from "../../composables/useSimpleScroll";
 import BtnIconRounded from "../Common/BtnIconRounded.vue";
-import Btn from "../Common/Btn.vue";
+import Btn from "../common/Btn.vue";
 
 const cartStore = useCartStore();
 const { doTranslate } = useTranslate();

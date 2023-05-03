@@ -1,7 +1,7 @@
 <script setup>
 import { ref, watch } from "vue";
 
-import Badge from "../Common/Badge.vue";
+import Badge from "../common/Badge.vue";
 
 const props = defineProps(["totalItems"]);
 
