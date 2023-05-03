@@ -1,7 +1,7 @@
 <script setup>
 import { ref, watch } from "vue";
 
-import Badge from "../Common/Badge.vue";
+// import Badge from "../Common/Badge.vue";
 
 const props = defineProps(["totalItems"]);
 
@@ -25,9 +25,9 @@ const removeTadaClass = () => {
     @animationend="removeTadaClass"
     ref="cartRef"
   >
-    <Badge
+    <!-- <Badge
       :value="totalItems"
       class="toggle-btn pi pi-shopping-cart border-2 border-secondary rounded-full text-lg text-white p-4"
-    />
+    /> -->
   </div>
 </template>
