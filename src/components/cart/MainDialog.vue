@@ -1,7 +1,7 @@
 <script setup>
-// import BtnIconRounded from "../Common/BtnIconRounded.vue";
+import BtnIconRounded from "../Common/BtnIconRounded.vue";
 
-// import Tabs from "./Tabs.vue";
+import Tabs from "./Tabs.vue";
 
 import Dialog from "primevue/dialog";
 
@@ -21,10 +21,10 @@ const emits = defineEmits(["closeCart"]);
           >
             $ {{ totalCost }}
           </div>
-          <!-- <BtnIconRounded icon="pi pi-times" @click="emits('closeCart')" /> -->
+          <BtnIconRounded icon="pi pi-times" @click="emits('closeCart')" />
         </div>
       </div>
     </template>
-    <!-- <Tabs /> -->
+    <Tabs />
   </Dialog>
 </template>
